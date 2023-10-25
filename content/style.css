@@ -1,0 +1,20 @@
+.navbar-brand img {
+    width: 80px;
+}
+.card {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.table{
+    max-width: 400px;
+}
+#iconoTiempoActual {
+    width: 120px;
+    display: block;
+    margin: 0 auto;
+}
+.table td,
+.table th {
+    margin: 0 !important;
+    padding: 0 !important;
+}
