@@ -39,7 +39,7 @@ TiempoPorHora.prototype.getData = function(lat, long, resultado) {
         for (var i = 0; i < temps.length; i++) {
             resultado += '<td>' + temps[i] + '</td>';
         }
-        resultado += '</tr></table></li><li class="list-group-item"><h5 class="text-center">Percepción por Días</h5>';
+        resultado += '</tr></table></li><li class="list-group-item"><h5 class="text-center">Prevision por Días</h5>';
         var tiempoPorDia = new TiempoPorDia();
         tiempoPorDia.getData(lat, long, resultado);
     });
